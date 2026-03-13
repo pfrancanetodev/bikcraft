@@ -1,0 +1,23 @@
+.header-bg {
+  background: #000;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.125rem;
+  padding: 16px 0px;
+}
