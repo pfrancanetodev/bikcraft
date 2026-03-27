@@ -7,12 +7,15 @@
   margin: 0 auto;
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -20,4 +23,27 @@
   color: #fff;
   font-size: 1.125rem;
   padding: 16px 0px;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    gap: 15px;
+  }
+
+  .navbar a {
+    background-color: #111111;
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .navbar a {
+    font-size: 0.75rem;
+  }
 }
