@@ -1,6 +1,6 @@
 .introducao-bg {
-  background: #000;
-  box-shadow: inset 0 -120px #fff;
+  background: var(--cor-12);
+  box-shadow: inset 0 -120px var(--cor-12);
 }
 
 .introducao {
@@ -27,17 +27,13 @@
   font-size: 4rem;
   line-height: 1.125;
   font-weight: 600;
-  color: #fff;
+  color: var(--cor-0);
   margin-bottom: 2rem;
-}
-
-.introducao-titulo span {
-  color: #ffbb00;
 }
 
 .introducao-texto {
   font-size: 1.5rem;
-  color: #b2b2b2;
+  color: var(--cor-5);
   margin-bottom: 1.25rem;
   line-height: 1.5;
 }
@@ -50,9 +46,9 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding-top: 1.5rem;
-    box-shadow: inset 0 -60px #fff;
+    box-shadow: inset 0 -60px var(--cor-0);
   }
 
   .introducao {
