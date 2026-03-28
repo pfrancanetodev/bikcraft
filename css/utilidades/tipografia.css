@@ -1,0 +1,13 @@
+.font-1-xxl {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.font-2-l {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}

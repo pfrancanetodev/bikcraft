@@ -24,18 +24,13 @@
 }
 
 .introducao-titulo {
-  font-size: 4rem;
-  line-height: 1.125;
-  font-weight: 600;
   color: var(--cor-0);
   margin-bottom: 2rem;
 }
 
 .introducao-texto {
-  font-size: 1.5rem;
   color: var(--cor-5);
   margin-bottom: 1.25rem;
-  line-height: 1.5;
 }
 
 @media (max-width: 1200px) {
