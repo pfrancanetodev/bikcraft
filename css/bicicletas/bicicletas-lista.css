@@ -57,3 +57,9 @@
     padding: 60px 0px 60px;
   }
 }
+
+@media (max-width: 600px) {
+  .bicicletas-lista h2 {
+    font-size: 2rem;
+  }
+}
