@@ -22,6 +22,15 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+.botao.secondario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.botao.secondario:hover {
+  background: var(--cor-9);
+}
+
 .link {
   display: inline-block;
   font:
