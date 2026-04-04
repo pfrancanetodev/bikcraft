@@ -7,9 +7,14 @@
 @import "/css/utilidades/componentes.css";
 @import "/css/utilidades/tipografia.css";
 
-/* Bicicletas */
-@import "/css/bicicletas/bicicletas-lista.css";
-
 /* Home */
 @import "/css/home/introducao.css";
 @import "/css/home/tecnologia.css";
+@import "/css/home/parceiros.css";
+@import "/css/home/depoimento.css";
+
+/* Bicicletas */
+@import "/css/bicicletas/bicicletas-lista.css";
+
+/* Seguros */
+@import "/css/seguros/seguros.css";
