@@ -1,0 +1,25 @@
+.termos-conteudo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.termos-conteudo div {
+  margin-bottom: 48px;
+}
+
+.termos-conteudo h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.termos-conteudo li {
+  margin-bottom: 20px;
+  max-width: 75ch;
+}
+
+@media (max-width: 800px) {
+  .termos-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

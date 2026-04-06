@@ -40,13 +40,13 @@
   margin-bottom: 0px;
 }
 
-.titulo {
+.seguro-titulo {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.titulo h2 {
+.seguro-titulo h2 {
   margin-bottom: 40px;
 }
 
