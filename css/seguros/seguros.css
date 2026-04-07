@@ -6,6 +6,10 @@
   padding: 60px 20px;
 }
 
+#seguros .seguros {
+  padding: 20px;
+}
+
 .seguros > h2 {
   margin-bottom: 60px;
 }
