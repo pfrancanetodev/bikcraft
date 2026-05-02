@@ -33,7 +33,7 @@
 }
 
 .seguros-item ul {
-  list-style-image: url("/img/icones/lista.svg");
+  list-style-image: url('/img/icones/lista.svg');
 }
 
 .seguros-item li {
