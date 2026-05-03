@@ -24,17 +24,18 @@
 }
 
 .navbar a::after {
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   width: 0px;
-  background-color: var(--cor-0);
+  background-color: var(--cor-p1);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
 }
 
-.navbar a:hover:after {
+.navbar a:hover::after,
+.navbar a.ativo::after {
   width: 100%;
 }
 
