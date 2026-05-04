@@ -1,3 +1,4 @@
+// Ativar Link menu
 const navBar = document.querySelectorAll('.navbar li a');
 
 function ativarLink(link) {
@@ -10,3 +11,15 @@ function ativarLink(link) {
 }
 
 navBar.forEach(ativarLink);
+
+// Ativar Produtos
+const paramentos = new URLSearchParams(location.search);
+
+function ativarProduto(paramento) {
+  const elemento = document.getElementById(paramento);
+  if (elemento) {
+    elemento.checked = true;
+  }
+}
+
+paramentos.forEach(ativarProduto);
